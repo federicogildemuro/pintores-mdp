@@ -71,7 +71,7 @@
                 aria-label="Portfolio de Federico Gil de Muro">
                 <i class="fas fa-code" aria-hidden="true" />
                 <span class="sr-only">Portfolio de Federico Gil de Muro</span>
-                <span aria-hidden="true">FEDERICO GIL DE MURO</span>
+                <span aria-hidden="true"> FEDERICO GIL DE MURO</span>
             </a>
         </div>
     </footer>
