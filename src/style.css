@@ -1,1 +1,21 @@
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #42a7ff;
+    --color-accent: #0142a6;
+    --color-light: #fdfefe;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
+}
