@@ -4,7 +4,7 @@ A modern static website for a local painting service — built with Vite, Vue 3 
 
 ## Description
 
-Pintores MDP is a fast and responsive single-page website designed for a professional painting service based in Mar del Plata. The site provides visitors with key information about the company, their services, past work, and contact options — all with a focus on performance, accessibility, and SEO best practices.
+Pintores MDP is a fast and responsive single-page website designed for a professional painting service based in Mar del Plata. The site provides visitors with key information about the company, and contact options — all with a focus on performance, accessibility, and SEO best practices.
 
 This project was developed using Vue 3 (Composition API), Vite for blazing-fast builds, and Tailwind CSS for modern, utility-first styling.
 
@@ -13,23 +13,20 @@ This project was developed using Vue 3 (Composition API), Vite for blazing-fast 
 ### 🖌️ For Visitors
 
 - 📍 Learn about the company and its services
-- 🖼️ Browse a gallery of past projects
 - 📞 Contact form to request information or quotes
-- 🚀 Scroll-to-top button for improved UX
 
 ### 📱 UI & UX
 
 - 💡 Accessible and semantically structured HTML
 - 📱 Mobile-first responsive design
 - 🎨 Smooth transitions and animations
-- 🔍 SEO best practices implemented
+- 🚀 Scroll-to-top button for improved UX
 
 ### 🌐 SEO & Web Standards
 
 - 📄 Custom meta tags (title, description, Open Graph, Twitter Cards)
 - 🧭 `robots.txt` and `sitemap.xml` included
 - 🔗 Canonical URL and favicons for all platforms
-- 🔒 HTTPS recommended via hosting provider
 
 ## Tech Stack
 
@@ -37,6 +34,8 @@ This project was developed using Vue 3 (Composition API), Vite for blazing-fast 
 - **Vue 3 (Composition API)** – JavaScript framework
 - **Tailwind CSS** – Utility-first CSS framework
 - **Font Awesome** – Icon library
+- **AOS** – Scroll animation library
+- **EmailJS** – Email service integration
 
 ## Getting Started
 
@@ -55,7 +54,11 @@ cd pintores-mdp
 npm install
 ```
 
-### 3. **Run the development server**
+### 3. **Set up environment variables**
+
+Create a `.env` file in the root of the project and add your credentials based on the `.env.example` file.
+
+### 4. **Run the development server**
 
 ```bash
 npm run dev
