@@ -74,20 +74,22 @@ function sendEmail(e) {
             ¿Tenés alguna pregunta o te gustaría comenzar tu proyecto?
         </p>
 
-        <!-- WhatsApp link -->
-        <p class="text-lg sm:text-xl mb-10" data-aos="fade-up" data-aos-delay="200">
-            Puedes contactarnos rápidamente a través de WhatsApp haciendo clic en el siguiente enlace:
+        <!-- WhatsApp contact button -->
+        <div class="mb-10" data-aos="fade-up" data-aos-delay="200">
+            <p class="text-lg sm:text-xl mb-10">
+                Podés enviarnos un mensaje directo por WhatsApp haciendo clic en el botón.
+            </p>
             <a href="https://wa.me/549XXXXXXXXXX" target="_blank" rel="noopener noreferrer"
-                class="inline-flex items-center text-green-500 hover:text-green-800 transition duration-300 ease-in-out"
+                class="inline-flex items-center justify-center bg-green-500 text-light text-lg px-6 py-3 rounded-full hover:bg-green-800 transition duration-300 ease-in-out"
                 aria-label="Abrir conversación de WhatsApp en nueva pestaña">
-                <i class="fab fa-whatsapp text-3xl ms-2" aria-hidden="true" />
-                <span class="sr-only">WhatsApp</span>
+                <i class="fab fa-whatsapp text-2xl mr-2" aria-hidden="true"></i>
+                Escribir por WhatsApp
             </a>
-        </p>
+        </div>
 
         <!-- Contact form -->
         <p class="text-lg sm:text-xl mb-10" data-aos="fade-up" data-aos-delay="300">
-            Si lo preferís, podés completar el siguiente formulario y nos pondremos en contacto a la mayor brevedad.
+            También podés completar el siguiente formulario y nos pondremos en contacto a la mayor brevedad.
         </p>
 
         <div class="max-w-xl mx-auto text-left" data-aos="fade-up" data-aos-delay="400">
