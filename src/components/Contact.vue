@@ -36,7 +36,6 @@ function sendEmail(e) {
 
     // EmailJS template parameters
     const templateParams = {
-        app_name: 'PintoresMDP',
         name: name.value,
         email: email.value,
         phone: phone.value,
@@ -70,16 +69,12 @@ function sendEmail(e) {
             CONTACTO
         </h1>
 
-        <p class="text-lg sm:text-xl mb-10" data-aos="fade-up" data-aos-delay="100">
-            ¿Tenés alguna pregunta o te gustaría comenzar tu proyecto?
-        </p>
-
         <!-- WhatsApp contact button -->
         <div class="mb-10" data-aos="fade-up" data-aos-delay="200">
             <p class="text-lg sm:text-xl mb-10">
                 Podés enviarnos un mensaje directo por WhatsApp haciendo clic en el botón.
             </p>
-            <a href="https://wa.me/549XXXXXXXXXX" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/5492235130838" target="_blank" rel="noopener noreferrer"
                 class="inline-flex items-center justify-center bg-green-500 text-light text-lg px-6 py-3 rounded-full hover:bg-green-800 transition duration-300 ease-in-out"
                 aria-label="Abrir conversación de WhatsApp en nueva pestaña">
                 <i class="fab fa-whatsapp text-2xl mr-2" aria-hidden="true"></i>
