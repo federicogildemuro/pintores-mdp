@@ -7,17 +7,17 @@
         <!-- Content -->
         <div class="relative z-10 text-center">
             <h1 class="text-4xl sm:text-5xl font-bold mb-10" data-aos="fade-up">
-                Transformamos tus espacios
+                Eficiencia, tecnología y precisión en cada etapa
             </h1>
 
             <p class="text-xl sm:text-2xl mb-10" data-aos="fade-up" data-aos-delay="250">
-                Soluciones de pintura profesional para hogares y negocios. ¡Empezá tu proyecto con nosotros hoy mismo!
+                Somos expertos en aplicaciones mecanizadas de pintura, masilla y texturado a gran escala.
             </p>
 
             <div data-aos="fade-up" data-aos-delay="500">
                 <a href="#contacto"
                     class="bg-primary text-light text-lg sm:text-xl px-6 py-4 rounded-full hover:bg-accent transition duration-300 ease-in-out">
-                    CONTÁCTANOS
+                    CONTACTANOS
                 </a>
             </div>
         </div>
