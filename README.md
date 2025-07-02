@@ -12,30 +12,31 @@ This project was developed using Vue 3 (Composition API), Vite for blazing-fast 
 
 ### 🖌️ For Visitors
 
-- 📍 Learn about the company and its services
-- 📞 Contact form to request information or quotes
+-   📍 Learn about the company and its services
+-   📞 Contact form to request information or quotes
+-   📄 Explore detailed sections: Hero, About, Services, and Clients
 
 ### 📱 UI & UX
 
-- 💡 Accessible and semantically structured HTML
-- 📱 Mobile-first responsive design
-- 🎨 Smooth transitions and animations
-- 🚀 Scroll-to-top button for improved UX
+-   💡 Accessible and semantically structured HTML
+-   📱 Mobile-first responsive design
+-   🎨 Smooth transitions and animations
+-   🚀 Scroll-to-top button for improved UX
 
 ### 🌐 SEO & Web Standards
 
-- 📄 Custom meta tags (title, description, Open Graph, Twitter Cards)
-- 🧭 `robots.txt` and `sitemap.xml` included
-- 🔗 Canonical URL and favicons for all platforms
+-   📄 Custom meta tags (title, description, Open Graph, Twitter Cards)
+-   🧱 `robots.txt` and `sitemap.xml` included
+-   🔗 Canonical URL and favicons for all platforms
 
 ## Tech Stack
 
-- **Vite** – Frontend build tool
-- **Vue 3 (Composition API)** – JavaScript framework
-- **Tailwind CSS** – Utility-first CSS framework
-- **Font Awesome** – Icon library
-- **AOS** – Scroll animation library
-- **EmailJS** – Email service integration
+-   **Vite** – Frontend build tool
+-   **Vue 3 (Composition API)** – JavaScript framework
+-   **Tailwind CSS** – Utility-first CSS framework
+-   **Font Awesome** – Icon library
+-   **AOS** – Scroll animation library
+-   **EmailJS** – Email service integration
 
 ## Getting Started
 
