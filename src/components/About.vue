@@ -1,5 +1,5 @@
 <template>
-    <section id="nosotros" class="scroll-mt-30 text-accent text-center m-10">
+    <section id="nosotros" class="scroll-mt-30 bg-gradient-to-b from-primary to-light text-accent text-center p-10">
         <h1 class="text-3xl sm:text-4xl font-bold mb-10" data-aos="zoom-in">SOBRE NOSOTROS</h1>
 
         <div class="flex flex-col-reverse lg:flex-row items-center gap-10">
@@ -20,7 +20,7 @@
             </div>
 
             <div class="lg:w-1/2" data-aos="fade-up" data-aos-delay="200">
-                <img src="@/assets/about.jpg" alt="Sobre Nosotros" class="border-2 border-primary rounded-lg w-full" />
+                <img src="@/assets/about.jpg" alt="Sobre Nosotros" class="border-2 border-accent rounded-lg w-full" />
             </div>
         </div>
     </section>

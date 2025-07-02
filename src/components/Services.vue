@@ -25,7 +25,7 @@ const toggle = (index) => {
             </p>
         </div>
 
-        <div v-for="(item, index) in services" :key="item.title" class="border-b border-primary max-w-6xl mx-auto">
+        <div v-for="(item, index) in services" :key="item.title" class="border-b border-accent max-w-6xl mx-auto">
             <button @click="toggle(index)"
                 class="w-full text-left py-5 text-xl font-semibold flex justify-between items-center cursor-pointer">
                 {{ item.title }}

@@ -1,6 +1,6 @@
 <template>
     <section id="inicio"
-        class="relative min-h-screen flex items-center justify-center text-light bg-cover bg-top mb-10 pt-30 px-5 hero">
+        class="relative min-h-screen flex items-center justify-center text-light bg-cover bg-top pb-10 pt-30 px-5 hero">
         <!-- Overlay to improve readability -->
         <div class="absolute inset-0 bg-black/50"></div>
 
