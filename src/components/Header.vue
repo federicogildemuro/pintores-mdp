@@ -1,19 +1,17 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-import NavLink from './NavLink.vue';
+import navLinks from '@/data/navLinks.js';
+import NavLink from '@/components/NavLink.vue';
 
-// State to manage the menu visibility
+// Menu visibility
 const isMenuOpen = ref(false);
-// Function to toggle the menu visibility
 function toggleMenu() {
-    isMenuOpen.value = !isMenuOpen.value
+    isMenuOpen.value = !isMenuOpen.value;
 };
 
-// State to manage the active section
+// Active section
 const activeSection = ref('');
-// Array of section IDs to observe
-const sectionIds = ['inicio', 'nosotros', 'contacto'];
-// Add Intersection Observer to track the active section
+const sectionIds = navLinks.map(link => link.label.toLowerCase());
 onMounted(() => {
     const observer = new IntersectionObserver(
         entries => {
@@ -41,7 +39,7 @@ onMounted(() => {
                 <img src="@/assets/logo.jpg" alt="Logo de Pintores MDP" class="h-24" />
             </a>
 
-            <!-- Hamburger icon (only visible on small screens) -->
+            <!-- Hamburger icon -->
             <button @click="toggleMenu" class="text-2xl sm:hidden" aria-label="Toggle menu"
                 aria-expanded="isMenuOpen.toString()">
                 <i :class="isMenuOpen ? 'fas fa-times' : 'fas fa-bars'" aria-hidden="true" />
@@ -53,19 +51,9 @@ onMounted(() => {
                 isMenuOpen ? 'block' : 'hidden'
             ]" role="navigation" aria-label="Main menu">
                 <ul class="flex flex-col items-center text-center sm:flex-row gap-5 sm:gap-10 p-5 sm:p-0">
-                    <li>
-                        <NavLink href="#inicio" text="INICIO" :active="activeSection === 'inicio'"
-                            @navigate="isMenuOpen = false" />
-                    </li>
-
-                    <li>
-                        <NavLink href="#nosotros" text="NOSOTROS" :active="activeSection === 'nosotros'"
-                            @navigate="isMenuOpen = false" />
-                    </li>
-
-                    <li>
-                        <NavLink href="#contacto" text="CONTACTO" :active="activeSection === 'contacto'"
-                            @navigate="isMenuOpen = false" />
+                    <li v-for="(link, index) in navLinks" :key="index">
+                        <NavLink :href="link.href" :label="link.label"
+                            :active="activeSection === link.label.toLowerCase()" @navigate="isMenuOpen = false" />
                     </li>
                 </ul>
             </nav>
