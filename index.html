@@ -1,69 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
+    <head>
+        <!-- Character encoding and viewport settings -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <!-- Character encoding and viewport settings -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Title, description, and keywords for SEO -->
+        <title>
+            Pintores MDP | Aplicaciones mecanizadas a gran escala en Mar del
+            Plata
+        </title>
+        <meta
+            name="description"
+            content="Expertos en aplicaciones mecanizadas de pintura, masilla y texturado a gran escala"
+        />
+        <meta
+            name="keywords"
+            content="pintores, pintura, masilla, revestimientos texturados, construcción en seco, impermeabilización, microcemento, hidrolavado, aplicaciones mecanizadas, gran escala, Mar del Plata"
+        />
 
-    <!-- Title, description, and keywords for SEO -->
-    <title>Pintores MDP | Servicios de pintura profesional en Mar del Plata</title>
-    <meta name="description"
-        content="Ofrecemos servicios de pintura interior y exterior en Mar del Plata. Calidad, compromiso y excelente atención al cliente.">
-    <meta name="keywords"
-        content="pintores, pintura, Mar del Plata, servicios de pintura, pintura interior, pintura exterior" />
+        <!-- Canonical URL to avoid duplicate content issues -->
+        <link rel="canonical" href="https://pintoresmdp.com.ar" />
 
-    <!-- Canonical URL to avoid duplicate content issues -->
-    <link rel="canonical" href="https://pintoresmdp.com.ar" />
+        <!-- Robots meta tag to allow search engines to index and follow the site -->
+        <meta name="robots" content="index, follow" />
 
-    <!-- Robots meta tag to allow search engines to index and follow the site -->
-    <meta name="robots" content="index, follow" />
+        <!-- Favicons and PWA (Progressive Web App) settings -->
+        <link rel="icon" href="/favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#42a7ff" />
 
-    <!-- Favicons and PWA (Progressive Web App) settings -->
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <meta name="theme-color" content="#42a7ff" />
+        <!-- Open Graph meta tags for social media optimization -->
+        <meta property="og:title" content="Pintores MDP" />
+        <meta
+            property="og:description"
+            content="Expertos en aplicaciones mecanizadas de pintura, masilla y texturado a gran escala."
+        />
+        <meta property="og:image" content="/og-image.jpg" />
+        <meta
+            property="og:url"
+            content="https://pintoresmdp.com.ar/og-image.jpg"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="es_ES" />
 
-    <!-- Open Graph meta tags for social media optimization -->
-    <meta property="og:title" content="Pintores MDP" />
-    <meta property="og:description" content="Servicios de pintura profesional en Mar del Plata." />
-    <meta property="og:image" content="/og-image.jpg" />
-    <meta property="og:url" content="https://pintoresmdp.com.ar/og-image.jpg" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="es_ES" />
+        <!-- Twitter Card meta tags for better presentation on Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Pintores MDP" />
+        <meta
+            name="twitter:description"
+            content="Expertos en aplicaciones mecanizadas de pintura, masilla y texturado a gran escala."
+        />
+        <meta
+            name="twitter:image"
+            content="https://pintoresmdp.com.ar/og-image.jpg"
+        />
+        <meta name="twitter:locale" content="es_ES" />
 
-    <!-- Twitter Card meta tags for better presentation on Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Pintores MDP" />
-    <meta name="twitter:description" content="Servicios de pintura profesional en Mar del Plata." />
-    <meta name="twitter:image" content="https://pintoresmdp.com.ar/og-image.jpg" />
-    <meta name="twitter:locale" content="es_ES" />
+        <!-- Structured Data (JSON-LD) for better search engine understanding -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Pintores MDP",
+                "url": "https://pintoresmdp.com.ar",
+                "logo": "https://pintoresmdp.com.ar/logo.jpg"
+            }
+        </script>
+    </head>
 
-    <!-- Structured Data (JSON-LD) for better search engine understanding -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Pintores MDP",
-        "url": "https://pintoresmdp.com.ar",
-        "logo": "https://pintoresmdp.com.ar/logo.jpg"
-    }
-    </script>
+    <body class="antialiased">
+        <div id="app"></div>
+        <script type="module" src="/src/main.js"></script>
 
-</head>
-
-<body class="antialiased">
-    <!-- Vue app mount point (where the Vue app will be rendered) -->
-    <div id="app"></div>
-
-    <!-- Main JavaScript file for Vue -->
-    <script type="module" src="/src/main.js"></script>
-
-    <!-- Font Awesome icons -->
-    <script src="https://kit.fontawesome.com/fc6964b5bb.js" crossorigin="anonymous"></script>
-</body>
-
+        <!-- Font Awesome icons -->
+        <script
+            src="https://kit.fontawesome.com/fc6964b5bb.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
