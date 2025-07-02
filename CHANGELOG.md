@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/federicogildemuro/pintores-mdp/compare/v1.0.0...v1.1.0) (2025-07-02)
+
+
+### Features
+
+* **about:** update content ([8ee7924](https://github.com/federicogildemuro/pintores-mdp/commit/8ee79244508944173c9a8a5ead7531256a8012ed))
+* **clients:** add clients section component with logos and description ([e46f219](https://github.com/federicogildemuro/pintores-mdp/commit/e46f21974224081f7143ff131c8e99f9044620d9))
+* **contact:** replace whatsapp link with button ([1721359](https://github.com/federicogildemuro/pintores-mdp/commit/172135988f8ad99de73586701c87f8d1d124d7a3))
+* **services:** add services component and content file ([740cb55](https://github.com/federicogildemuro/pintores-mdp/commit/740cb55a6f3f96ef434dbf012af735c5dd7bdc32))
+
+
+### Bug Fixes
+
+* **footer:** add missing socialLinks file ([0ccad94](https://github.com/federicogildemuro/pintores-mdp/commit/0ccad945c479214c88ceaf84d8be2a7f54bb92d9))
+
 ## 1.0.0 (2025-04-29)
 
 
