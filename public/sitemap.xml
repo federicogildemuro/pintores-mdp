@@ -9,6 +9,10 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://pintoresmdp.com.ar/#servicios</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://pintoresmdp.com.ar/#contacto</loc>
         <priority>0.8</priority>
     </url>
