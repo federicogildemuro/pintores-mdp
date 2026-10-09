@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/federicogildemuro/pintores-mdp/compare/v1.1.0...v2.0.0) (2026-10-09)
+
+
+### Features
+
+* **sitemap:** add main URLs to sitemap.xml ([af13999](https://github.com/federicogildemuro/pintores-mdp/commit/af13999f3ed65a3e891652de2993dba89ddf9645))
+
+
+### Build System
+
+* **deps:** replace deprecated emailjs-com with @emailjs/browser ([#1](https://github.com/federicogildemuro/pintores-mdp/issues/1)) ([d33baab](https://github.com/federicogildemuro/pintores-mdp/commit/d33baab419344af58ca9cc018baf6f1594d198e1))
+
+
+### Code Refactoring
+
+* migrate from Vue to React and TypeScript ([#2](https://github.com/federicogildemuro/pintores-mdp/issues/2)) ([dfa433d](https://github.com/federicogildemuro/pintores-mdp/commit/dfa433de161f17ccd8662865311684f0df85f6e6))
+
 ## [1.1.0](https://github.com/federicogildemuro/pintores-mdp/compare/v1.0.0...v1.1.0) (2025-07-02)
 
 
