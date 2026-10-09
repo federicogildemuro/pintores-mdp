@@ -1,4 +1,9 @@
-const navLinks = [
+export interface NavItem {
+    label: string;
+    href: string;
+}
+
+const navLinks: NavItem[] = [
     { label: "INICIO", href: "#inicio" },
     { label: "NOSOTROS", href: "#nosotros" },
     { label: "SERVICIOS", href: "#servicios" },

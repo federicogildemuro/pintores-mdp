@@ -1,4 +1,10 @@
-const socialLinks = [
+export interface SocialLink {
+    name: string;
+    href: string;
+    iconClass: string;
+}
+
+const socialLinks: SocialLink[] = [
     {
         name: "Instagram",
         href: "https://www.instagram.com/pintoresmdp",
