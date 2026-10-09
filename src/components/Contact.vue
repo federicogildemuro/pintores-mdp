@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 // Load EmailJS configuration from environment variables
 const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
