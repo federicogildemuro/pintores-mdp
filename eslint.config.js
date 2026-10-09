@@ -19,5 +19,17 @@ export default defineConfig([
             ecmaVersion: 2022,
             globals: globals.browser,
         },
+        rules: {
+            // Components and helpers are written as arrow functions: const Foo = () => {...}
+            "func-style": ["error", "expression", { overrides: { namedExports: "expression" } }],
+            // func-style ignores `export default function`, so catch that case explicitly
+            "no-restricted-syntax": [
+                "error",
+                {
+                    selector: "ExportDefaultDeclaration > FunctionDeclaration",
+                    message: "Use an arrow function: const Foo = () => {...}; export default Foo;",
+                },
+            ],
+        },
     },
 ]);

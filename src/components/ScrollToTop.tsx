@@ -1,20 +1,20 @@
 import { useEffect, useState } from 'react';
 
 // Scroll to top function
-function scrollToTop() {
+const scrollToTop = () => {
     window.scrollTo({
         top: 0,
         behavior: 'smooth',
     });
-}
+};
 
-export default function ScrollToTop() {
+const ScrollToTop = () => {
     // Button visibility
     const [showButton, setShowButton] = useState(false);
     useEffect(() => {
-        function handleScroll() {
+        const handleScroll = () => {
             setShowButton(window.scrollY > 200);
-        }
+        };
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
@@ -26,4 +26,6 @@ export default function ScrollToTop() {
             <i className="fas fa-arrow-up" aria-hidden="true" />
         </button>
     );
-}
+};
+
+export default ScrollToTop;

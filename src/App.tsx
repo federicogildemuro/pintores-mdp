@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
-export default function App() {
+const App = () => {
     useEffect(() => {
         AOS.init({
             duration: 1500,
@@ -35,4 +35,6 @@ export default function App() {
             <ScrollToTop />
         </>
     );
-}
+};
+
+export default App;

@@ -5,7 +5,7 @@ interface NavLinkProps {
     onNavigate: () => void;
 }
 
-export default function NavLink({ href, label, active, onNavigate }: NavLinkProps) {
+const NavLink = ({ href, label, active, onNavigate }: NavLinkProps) => {
     return (
         <a href={href} onClick={onNavigate} className={[
             'pb-2 border-b-2 border-transparent transition-all duration-500 ease-in-out',
@@ -14,4 +14,6 @@ export default function NavLink({ href, label, active, onNavigate }: NavLinkProp
             {label}
         </a>
     );
-}
+};
+
+export default NavLink;

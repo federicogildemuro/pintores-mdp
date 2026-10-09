@@ -1,7 +1,7 @@
 import navLinks from '@/data/navLinks';
 import socialLinks from '@/data/socialLinks';
 
-export default function Footer() {
+const Footer = () => {
     return (
         <footer className="bg-primary text-light grid grid-cols-1 sm:grid-cols-3 gap-5 p-10">
             {/* Navigation Links */}
@@ -36,4 +36,6 @@ export default function Footer() {
             </div>
         </footer>
     );
-}
+};
+
+export default Footer;

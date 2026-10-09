@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import services from '@/data/services';
 
-export default function Services() {
+const Services = () => {
     const [activeIndex, setActiveIndex] = useState<number | null>(null);
-    function toggle(index: number) {
+    const toggle = (index: number) => {
         setActiveIndex(current => current === index ? null : index);
-    }
+    };
 
     return (
         <section id="servicios" className="scroll-mt-30 text-accent text-center m-10">
@@ -54,4 +54,6 @@ export default function Services() {
             })}
         </section>
     );
-}
+};
+
+export default Services;

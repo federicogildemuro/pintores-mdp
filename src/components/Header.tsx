@@ -5,12 +5,12 @@ import logo from '@/assets/logo.jpg';
 
 const sectionIds = navLinks.map(link => link.label.toLowerCase());
 
-export default function Header() {
+const Header = () => {
     // Menu visibility
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    function toggleMenu() {
+    const toggleMenu = () => {
         setIsMenuOpen(open => !open);
-    }
+    };
 
     // Active section
     const [activeSection, setActiveSection] = useState('');
@@ -66,4 +66,6 @@ export default function Header() {
             </div>
         </header>
     );
-}
+};
+
+export default Header;

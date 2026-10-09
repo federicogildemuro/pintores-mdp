@@ -6,7 +6,7 @@ const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-export default function Contact() {
+const Contact = () => {
     // Form input states
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -19,7 +19,7 @@ export default function Contact() {
     const [error, setError] = useState(false);
 
     // Handles the form submission and sends an email via EmailJS
-    function sendEmail(e: FormEvent<HTMLFormElement>) {
+    const sendEmail = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         // Reset status flags
@@ -60,7 +60,7 @@ export default function Contact() {
                 // Reset sending flag
                 setSending(false);
             });
-    }
+    };
 
     return (
         <section id="contacto" className="scroll-mt-30 text-accent text-center m-10">
@@ -141,4 +141,6 @@ export default function Contact() {
             </div>
         </section>
     );
-}
+};
+
+export default Contact;

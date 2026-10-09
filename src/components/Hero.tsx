@@ -1,6 +1,6 @@
 import heroBg from '@/assets/hero-bg.jpg';
 
-export default function Hero() {
+const Hero = () => {
     return (
         <section id="inicio"
             className="relative min-h-screen flex items-center justify-center text-light bg-cover bg-top pb-10 pt-30 px-5"
@@ -27,4 +27,6 @@ export default function Hero() {
             </div>
         </section>
     );
-}
+};
+
+export default Hero;

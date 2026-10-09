@@ -1,6 +1,6 @@
 import clientsLogos from '@/data/clientsLogos';
 
-export default function Clients() {
+const Clients = () => {
     return (
         <section className="bg-gradient-to-b from-light to-primary text-accent text-center p-10 overflow-hidden">
             <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center" data-aos="zoom-in">NUESTROS CLIENTES</h2>
@@ -25,4 +25,6 @@ export default function Clients() {
             </div>
         </section>
     );
-}
+};
+
+export default Clients;

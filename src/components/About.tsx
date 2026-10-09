@@ -1,6 +1,6 @@
 import aboutImg from '@/assets/about.jpg';
 
-export default function About() {
+const About = () => {
     return (
         <section id="nosotros" className="scroll-mt-30 bg-gradient-to-b from-primary to-light text-accent text-center p-10">
             <h1 className="text-3xl sm:text-4xl font-bold mb-10" data-aos="zoom-in">SOBRE NOSOTROS</h1>
@@ -28,4 +28,6 @@ export default function About() {
             </div>
         </section>
     );
-}
+};
+
+export default About;
