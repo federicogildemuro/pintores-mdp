@@ -5,6 +5,19 @@
     --color-primary: #42a7ff;
     --color-accent: #0142a6;
     --color-light: #fdfefe;
+
+    /* Infinite horizontal scroll for the clients logo strip */
+    --animate-scroll: scroll 15s linear infinite;
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
 }
 
 body {

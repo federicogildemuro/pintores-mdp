@@ -1,4 +1,9 @@
-const services = [
+export interface Service {
+    title: string;
+    content: string;
+}
+
+const services: Service[] = [
     {
         title: "PINTURA",
         content:

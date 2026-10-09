@@ -1,12 +1,12 @@
 # Pintores MDP
 
-A modern static website for a local painting service — built with Vite, Vue 3 (Composition API), and Tailwind CSS.
+A modern static website for a local painting service — built with Vite, React, TypeScript, and Tailwind CSS.
 
 ## Description
 
 Pintores MDP is a fast and responsive single-page website designed for a professional painting service based in Mar del Plata. The site provides visitors with key information about the company, and contact options — all with a focus on performance, accessibility, and SEO best practices.
 
-This project was developed using Vue 3 (Composition API), Vite for blazing-fast builds, and Tailwind CSS for modern, utility-first styling.
+This project was developed using React with TypeScript, Vite for blazing-fast builds, and Tailwind CSS for modern, utility-first styling.
 
 ## Features
 
@@ -32,7 +32,9 @@ This project was developed using Vue 3 (Composition API), Vite for blazing-fast 
 ## Tech Stack
 
 -   **Vite** – Frontend build tool
--   **Vue 3 (Composition API)** – JavaScript framework
+-   **React** – UI library
+-   **TypeScript** – Typed JavaScript
+-   **ESLint** – Linting, run on every commit via Husky
 -   **Tailwind CSS** – Utility-first CSS framework
 -   **Font Awesome** – Icon library
 -   **AOS** – Scroll animation library
@@ -66,6 +68,15 @@ npm run dev
 ```
 
 The site will be available at `http://localhost:5173`.
+
+### 5. **Check and build**
+
+```bash
+npm run lint
+npm run build
+```
+
+`npm run build` type-checks the project with `tsc` before building.
 
 ## Contributing
 
